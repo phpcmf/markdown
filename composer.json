@@ -1,0 +1,35 @@
+{
+    "name": "cmf/markdown",
+    "description": "允许帖子使用 Markdown 格式化。",
+    "type": "cmf-extension",
+    "keywords": [
+        "formatting"
+    ],
+    "license": "MIT",
+    "homepage": "https://phpcmf.cn",
+    "require": {
+        "cmf/core": "^1.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        },
+        "cmf-extension": {
+            "title": "Markdown",
+            "category": "feature",
+            "icon": {
+                "name": "fab fa-markdown",
+                "backgroundColor": "#000",
+                "color": "#fff"
+            }
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../*/*"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
